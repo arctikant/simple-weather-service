@@ -15,6 +15,10 @@
 
 ## Testing, static analysis, formatting
 
+> [!WARNING]
+> To run `ruff` and `mypy` locally, you need to install the project dependencies on your local machine.
+> To do this make sure that `poetry` is installed on your machine and run `poetry install`.
+
 #### Ruff
 - `ruff check .` to check without fix
 - `ruff check --fix .` to check and fix
